@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidator</title>
+    <link rel="stylesheet" href="walidator.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="FormWrapper">
+            <form>
+                <h1>Zarejestruj się</h1>
+                <div class="formBox">
+                    <label for="username">Nazwa użytkownika:</label>
+                    <input id="username" type="text" placeholder="Podaj nazwę użytkownika" />
+                    <p class="errorText">Error</p>
+                </div>
+                <div class="formBox ">
+                    <label for="password">Hasło:</label>
+                    <input id="password" type="password" placeholder="Podaj Hasło" />
+                    <p class="errorText">Error</p>
+                </div>
+                <div class="formBox">
+                    <label for="passwordRepeat">Powtórz Hasło:</label>
+                    <input id="passwordRepeat" type="password" placeholder="Powtórz Hasło" />
+                    <p class="errorText">Error</p>
+                </div>
+                <div class="formBox">
+                    <label for="emailadress">adres e-mail:</label>
+                    <input id="emailadress" type="email" placeholder="Podaj adres e-mail" />
+                    <p class="errorText">Error</p>
+                </div>
+                <div class="controlButtons">
+                    <button class="clear">Wyczyść</button>
+                    <button class="send">Wyślij</button>
+                </div>
+                <div class="popup ">
+                    <p>Formularz został poprawnie wysłany</p>
+                    <button class="close"> Zamknij</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="walidator.js"></script>
+</body>
+
+</html>
